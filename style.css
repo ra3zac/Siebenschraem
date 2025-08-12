@@ -1,0 +1,58 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.player-hand {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+.card {
+  width: 60px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.message {
+  margin: 10px 0;
+  font-weight: bold;
+  color: darkred;
+}
+
+.played-area {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.played-stack {
+  text-align: center;
+}
+
+.history-area {
+  background: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 20px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+}
